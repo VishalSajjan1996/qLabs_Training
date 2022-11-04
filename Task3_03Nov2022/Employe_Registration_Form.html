@@ -11,78 +11,91 @@
     <form action="Employe_Registration_Form.html" method="post">
         <fieldset>
             <legend>Personal Information</legend>
-            <label for="firstname">First Name :</label>
-            <input type="text" id="firstname" name="firstname" size="30"><br>
-            <label for="middlename">Middle Name :</label>
-            <input type="text" id="middlename" name="middlename" size="30"><br>
-            <label for="lastname">last Name :</label>
-            <input type="text" id="lastname" name="lastname" size="30"><br>
-            <label for="dob">Date of Birth</label>
-            <input type="date" id="dob" name="Dateofbirth">
-            <label>Gender</label>
+            <label for="firstname">First Name :</label>&emsp;&nbsp;&nbsp;
+            <input type="text" id="firstname" name="firstname" size="30"><br><br>
+            <label for="middlename">Middle Name :</label>&nbsp;&nbsp;
+            <input type="text" id="middlename" name="middlename" size="30"><br><br>
+            <label for="lastname">last Name :</label>&emsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="lastname" name="lastname" size="30"><br><br>
+            <label for="dob">Date of Birth :</label>&nbsp;&nbsp;&nbsp;
+            <input type="date" id="dob" name="Dateofbirth"><br><br>
+            <label>Gender :</label>
             <input type="radio" id="male" name="gender">
             <label for="male">Male</label>
             <input type="radio" id="female" name="gender">
-            <label for="female">Female</label><br>
-            <label for="phonenumber">Phone Number</label>
-            <input type="text" id="phonenumber" name="phonenumber" maxlength="10"><br>
-            <label for="mailid">Mail Id</label>
+            <label for="female">Female</label><br><br>
+            <label for="phonenumber">Phone Number :</label>
+            <input type="text" id="phonenumber" name="phonenumber" maxlength="10"><br><br>
+            <label for="mailid">Mail Id :</label>&emsp;&emsp;&emsp;
             <input type="email" id="mailid" name="email">        
         </fieldset>
         <fieldset>
             <legend>Address</legend>
-            <label for="permanentaddress">Permanent Address</label>
-            <textarea id="permanentaddress" name="presentaddress" cols="5" rows="5"></textarea><br>
-            <label for="presentaddress">Present Address</label>
-            <textarea id="presentaddress" name="presentaddress" cols="5" rows="5"></textarea><br>
-            <label for="pincode">Pin Code</label>
-            <input type="number" id="pincode" name="pincode"><br>
-            <label for="state">State</label>
-            <input type="text" id="state" name="state" value="Karnataka"><br>
-            <label for="country">Country</label>
-            <input type="text" id="country" name="country" value="India"><br>
-            <label for="adharcard">Adhar Card</label>
+            <label for="permanentaddress">Permanent Address</label><br>
+            <textarea id="permanentaddress" name="presentaddress" cols="30" rows="6"></textarea><br><br>
+            <label for="presentaddress">Present Address</label><br>
+            <textarea id="presentaddress" name="presentaddress" cols="30" rows="6"></textarea><br><br>
+            <label for="pincode">Pin Code :</label>&emsp;
+            <input type="number" id="pincode" name="pincode"><br><br>
+            <label for="country">Country :</label>&emsp;&nbsp;&nbsp;
+            <select id="country">
+                <option>India</option>
+                <option>Germany</option>
+            </select><br><br>
+            <label for="state">State :</label>&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+            <select id="state">
+                <option>Karnataka</option>
+                <option>Delhi</option>
+            </select><br><br>
+            <label for="adharcard">Adhar Card :</label>
             <input type="file" id="adharcard" name="adharcard">
         </fieldset>
         <fieldset>
             <legend>Qualification</legend>
-            <label for="10th">10Th</label>
+            <label for="10th">10Th :</label>&emsp;&emsp;&emsp;&emsp;
             <input type="number" id="10th" name="10th" placeholder="%/cgpa">
             <input type="number"  name="10th" placeholder="Year of pass">
-            <input type="file" name="10th"><br>
-            <label for="12th">12Th/Diploma</label>
+            <input type="file" name="10th"><br><br>
+            <label for="12th">12Th/Diploma :</label>
             <input type="number" id="12th" name="12th" placeholder="%/cgpa">
             <input type="number" name="12th" placeholder="Year of pass">
-            <input type="file" name="12th"><br>
-            <label for="degree">Degree</label>
+            <input type="file" name="12th"><br><br>
+            <label for="degree">Degree :</label>&emsp;&emsp;&emsp;
             <input type="number" id="degree" name="degree" placeholder="%/cgpa">
             <input type="number"  name="degree" placeholder="Year of pass">
-            <input type="file" name="degree"><br>
-            <label for="othercourses">Other Courses</label>
+            <input type="file" name="degree"><br><br>
+            <label for="othercourses">Other Courses :</label>
             <input type="text" id="othercourses" name="othercourses" placeholder="Training">
             <input type="file"  name="othercourses">
         </fieldset>
         <fieldset>
             <legend>Other Information</legend>
-            <label for="technicalskill">Technical Skill</label>
-            <select id="technicalskill" name="technicalskill" multiple>
-                <option>JAVA</option>
-                <option>HTML</option>
-                <option>CSS</option>
-                <option>JAVASCRIPT</option>
-                <option>PHP</option>
-            </select><br>
-            <label for="hobbies">Hobbies</label>
-            <select  id="hobbies" name="hobbies" multiple>
-                <option>Drawing</option>
-                <option>Photography</option>
-                <option>Tracking</option>
-                <option>Playing Cricket</option>
-                <option>Listening Music</option>
-            </select><br>
-            <label for="others">Others</label>
-            <input type="text" id="others" name="others"><br>
-            <label>Language Known</label>
+            <label>Technical Skill :</label>&emsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="java" name="technicalskill">
+            <label for="java">JAVA</label>&emsp;&nbsp;
+            <input type="checkbox" id="html" name="technicalskill">
+            <label for="html">HTML</label>&emsp;
+            <input type="checkbox" id="css" name="technicalskill">
+            <label for="css">CSS</label>&emsp;&emsp;
+            <input type="checkbox" id="python" name="technicalskill">
+            <label for="python">Python</label>&emsp;&emsp;&emsp;
+            <label for="Other">Others</label>
+            <input type="text" id="Other" name="technicalskill"><br><br>
+            
+            <label>Hobbies</label>&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="Singing" name="hobbies">
+            <label for="Singing">Singing</label>&nbsp;
+            <input type="checkbox" id="dancing" name="hobbies">
+            <label for="dancing">Dancing</label>&nbsp;&nbsp;
+            <input type="checkbox" id="sketching" name="hobbies">
+            <label for="sketching">Sketching</label>
+            <input type="checkbox" id="travelling" name="hobbies">
+            <label for="travelling">Travelling</label>&emsp;&nbsp;&nbsp;
+            <label for="Others">Others</label>
+            <input type="text" id="Others" name="hobbies">
+            <br><br>
+           
+            <label>Language Known :</label><br>
             <input type="checkbox" id="kannada" name="language">
             <label for="kannada">Kannada</label><br>
             <input type="checkbox" id="English" name="language">
@@ -91,26 +104,33 @@
             <label for="Hindi">Hindi</label><br>
             <input type="checkbox" id="other" name="language">
             <label for="other">Other</label>
-            <input type="text" name="language"><br>
-            <label>Work Experience</label>
+            <input type="text" name="language"><br><br>
+            <label>Work Experience :</label><br>
             <input type="radio" id="fresher" name="workexperience"> 
-            <label for="fresher">Fresher</label><br>
+            <label for="fresher">Fresher</label>&emsp;&emsp;&emsp;
+            <label for="passout">Year of Passout</label>
+            <input type="number" id="passout"><br>
             <input type="radio" id="experience" name="workexperience">
-            <label for="experience">Experience</label>
-            <label for="pass">Year of pass</label>
-            <input type="number" id="pass" name="workexperience"><br>
-            <label for="Workedexperience">Worked Experience</label>
-            <input type="text" id="Workedexperience" name="workedexperience"><br>
-            <label for="experiencefield">Experience Field</label>
-            <input type="text" id="experiencefield" name="experiencefield"><br>
-            <label for="resume"> Resume</label>
-            <input type="file" id="resume" name="resume" ><br>
-            <label for="photo">Photo</label> 
-            <input type="file" id="photo" name="photo"><br>
-            <label for="signature">Signature</label>
+            <label for="experience">Experience</label>&emsp;&nbsp;&nbsp;
+            <label for="pass">Year</label>&emsp;&nbsp;&emsp;&emsp;&emsp;
+            <input type="number" id="pass" name="workexperience"><br><br>
+           
+            <label for="resume"> Resume :</label>&emsp;
+            <input type="file" id="resume" name="resume" ><br><br>
+            <label for="photo">Photo :</label> &emsp;&nbsp;&nbsp;
+            <input type="file" id="photo" name="photo"><br><br>
+            <label for="signature">Signature :</label>&nbsp;
             <input type="file" id="signature" name="signature">
+        </fieldset><br>
+        <fieldset>
+            <legend>Company Details</legend>
+            <label>Address</label>
+            <address>
+            <p>Qualesce India Private Limited is at No 628/A, 
+                Software Industry NGF, 1st Stage, Indiranagar,, Bangalore, Bangalore, Karnataka.</p>      
+            </address>
         </fieldset>
-        <a href="https://www.qualesce.com/">Company Link</a><br>
+        <a href="https://www.qualesce.com/">Company Link</a><br><br>
         <input type="submit" value="submit">
         
     </form>
