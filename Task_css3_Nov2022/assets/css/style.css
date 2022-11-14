@@ -1,1 +1,62 @@
+/*Style for VishalResume*/
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: rgba(128, 128, 128, 0.288);
+    margin: 40px 100px 40px 100px;
+    padding: 40px 60px 40px 60px;
+}
+header{
+    text-align: center;
+    line-height: 25px;
+    
+}
+header h1{
+    font-size: 40px;
+    margin-top: 40px;
+    color: rgb(110, 25, 25);
+    font-weight: 500;
+    
+    
+}
+header p{
+    color: rgba(110, 25, 25, 0.582);
+    font-weight: 800;
+}
 
+nav ul{
+    text-align: center;
+    background-color: rgba(115, 115, 194, 0.041);
+    
+}
+nav ul li{
+    display: inline-block;
+    margin:20px 60px 30px 50px;
+    font-weight: 600;
+    background-color: rgba(104, 104, 109, 0.103);
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(110, 25, 25, 0.582);
+}
+nav ul li a:hover{
+    color: rgba(131, 33, 33, 0.774);;
+    font-size: 20px;
+}
+article h3{
+    background-color: rgba(128, 128, 128, 0.308);
+    color:   rgb(110, 25, 25);
+}
+article p{
+    margin: 20px 0px 20px 60px;
+}
+details{
+    margin: 20px 0px 20px 60px;
+}
+article ul{
+    margin: 20px 0px 20px 60px;
+}
