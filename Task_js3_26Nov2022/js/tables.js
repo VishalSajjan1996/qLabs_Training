@@ -5,15 +5,15 @@
    
     if(m == 'number')
     {
-        if(a<=1)
+        if(a<=1 || n<=0)
         {
             alert("Enter greater than zero value");
         }
         else{
-            var m=0;
+            var res=0;
             for(i=1;i<=n;i++)
              {
-                var m=m+a;
+                var res=res+a;
                 console.log(m);
                 }
         }
