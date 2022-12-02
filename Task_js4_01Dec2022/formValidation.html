@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section>
+    
+        <article>
+            <form action="">
+        <h2>Form Validation</h2>
+        <label for="firstName">First Name</label><br>
+        <input type="text" id="firstName" placeholder="First Name" ><br>
+        <label for="secondName">First Name</label><br>
+        <input type="text" id="secondName" placeholder="Second Name" ><br>
+        <input type="radio" id="10th" name="education" onclick='rad1()'><label for="10th">10th</label>
+        <input type="radio" id="puc" name="education" onclick='rad2()'><label for="puc">PUC/Diploma</label>
+        <input type="radio" id="be" name="education" onclick='rad3()'><label for="be">BE/BTech</label><br>
+        <input type="number" disabled="true" id="cgpa" step="0.01"><label>% or cgpa</label><br>
+        <label for="email">Email Id</label><br>
+        <input type="email" id="email" name="email" ><br>
+        <label for="hobbies">Hobbies</label><br>
+        <div class="list">
+            <ul>
+                <li><input type="checkbox" id="danceing" checked value="danceing"><label for="danceing">Danceing</label></li>
+                <li><input type="checkbox" id="swiming"  value="swiming"><label for="swiming">Swiming</label></li>
+                <li><input type="checkbox" id="camping"  value="camping"><label for="camping">Camping</label></li>
+                <li><input type="checkbox" id="reading"  value="reading"><label for="reading">Reading</label></li>
+                <li><input type="checkbox" id="photography"  value="photography"><label for="photography">Photography</label></li>
+            </ul>
+            <ul>
+                <li><input type="checkbox" id="singing"  value="singing"><label for="singing">Singing</label></li>
+                <li><input type="checkbox" id="fittnes"  value="fittnes"><label for="fittnes">Fittnes</label></li>
+                <li><input type="checkbox" id="trucking"  value="trucking"><label for="trucking">Trucking</label></li>
+                <li><input type="checkbox" id="playing_sports"  value="playing_sports"><label for="playing_sports">Playing_sports</label></li>
+                <li><input type="checkbox" id="watching_tv"  value="watching_tv"><label for="watching_tv">Watching_tv</label></li>
+            </ul>
+        </div>
+        <input type="submit" value="Submit" onclick="validate()">
+        </form>
+        </article>
+        <article class="art2" >
+            <p id="art"></p>
+        </article>
+    
+</section>
+</body>
+<script src="js/formValidation.js"></script>
+</html>
