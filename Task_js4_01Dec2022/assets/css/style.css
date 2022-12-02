@@ -1,0 +1,67 @@
+* {
+    margin: 0 auto;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/stater/assets/img/backgroundimage.jpg');
+    /* background-color:rgba(0, 0, 0, 0.249); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section{
+   
+    display: flex;
+    /* text-align: center; */
+    
+}
+form {
+   
+    margin: 0 0 0 400px;
+    padding:50px 0 0 60px;
+    border: 2px solid black;
+    color: white;
+
+}
+h2 {
+    font-size: 30px;
+    margin: 0 0 25px 0;
+    text-align: center;
+
+}
+label,
+input {
+    margin: 0 0 20px 0;
+}
+input[type='submit']
+{
+    margin: 20px 0 0 85px;
+    padding: 4px 13px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.456);
+    color: white;
+    border: 1px solid white;
+}
+article {
+    /* background-color: rgba(0, 0, 255, 0.236); */
+    flex-grow: 1;
+}
+.list {
+    
+    margin: 0px;
+    /* background-color: rgba(255, 0, 0, 0.286); */
+}
+ul {
+    display: inline-block;
+    padding-right: 0px;
+    
+}
+.art2 {
+    /* flex: 1; */
+    /* background-color: red; */
+    flex-grow: 4;
+    /* border: 1px solid white; */
+    margin-right: 200px;
+    color: white;
+}  
+    
